@@ -15,12 +15,13 @@
                 <h1>Shiva Prasad</h1>
                 <p>
                   I am a seasoned software expert who has developed products for
-                  enterprise clients such as Lumen Technologies(CenturyLink Pvt Ltd), Kreatio Software Pvt Ltd, and
-                  Synapten Labs Pvt Ltd, as well as many venture-backed
-                  businesses. I specialize in building applications specific to
-                  the business needs of my clients. I have done work in software
-                  development, mobile app creation, front-end/back-end web,
-                  database/server management and application Deployment.
+                  enterprise clients such as Lumen Technologies(CenturyLink Pvt
+                  Ltd), Kreatio Software Pvt Ltd, and Synapten Labs Pvt Ltd, as
+                  well as many venture-backed businesses. I specialize in
+                  building applications specific to the business needs of my
+                  clients. I have done work in software development, mobile app
+                  creation, front-end/back-end web, database/server management
+                  and application Deployment.
                 </p>
                 <div class="site_buttons">
                   <a href="#" class="btns btn-primary">Download CV</a>

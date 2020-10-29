@@ -23,7 +23,7 @@ import Footer from "./components/Footer.vue";
   components: {
     Header,
     SiteMain,
-    Footer
+    Footer,
   },
 })
 export default class App extends Vue {

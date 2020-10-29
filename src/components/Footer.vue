@@ -25,7 +25,7 @@ export default class Fotter extends Vue {}
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
-          transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-butns .btn1:before {
   top: 90%;
@@ -33,7 +33,7 @@ export default class Fotter extends Vue {}
 }
 .social-butns .btn1 .fa {
   -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
 }
 .social-butns .btn1.facebook:before {
   background-color: #3b5998;
@@ -74,7 +74,7 @@ export default class Fotter extends Vue {}
 .social-butns .btn1:hover .fa {
   color: #fff;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .social-butns {
   height: 90px;
@@ -98,16 +98,16 @@ export default class Fotter extends Vue {}
   position: relative;
   overflow: hidden;
   border-radius: 28%;
-  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
   opacity: 0.99;
 }
 .social-butns .btn1:before {
-  content: '';
+  content: "";
   width: 120%;
   height: 120%;
   position: absolute;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .social-butns .btn1 .fa {
   font-size: 38px;

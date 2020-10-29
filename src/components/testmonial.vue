@@ -62,8 +62,8 @@ import { testimonial } from "../mock/testimonial";
 @Options({
   components: {
     Animation,
-    Terminal,
-  },
+    Terminal
+  }
 })
 export default class Testmonial extends Vue {
   TestimonialData: any = {};
@@ -72,7 +72,7 @@ export default class Testmonial extends Vue {
     console.log(testimonial);
   }
   getimg(data: any) {
-      return data;
+    return data;
   }
 }
 </script>
