@@ -1,9 +1,8 @@
 <template>
   <div class="dasboard">
     <SiteMain></SiteMain>
-    <Animation></Animation>
-    <Terminal></Terminal>
     <Testmonial></Testmonial>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -13,6 +12,7 @@ import Animation from "../components/Animation.vue";
 import Terminal from "../components/Terminal.vue";
 import Testmonial from "./testmonial.vue";
 import SiteMain from "./SiteMain.vue";
+import Footer from "./Footer.vue";
 
 @Options({
   components: {
@@ -20,6 +20,7 @@ import SiteMain from "./SiteMain.vue";
     Terminal,
     Testmonial,
     SiteMain,
+    Footer,
   },
 })
 export default class HelloWorld extends Vue {}

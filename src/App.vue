@@ -7,7 +7,7 @@
       <Header></Header>
       <router-view />
     </div>
-    <Footer></Footer>
+    <!-- <Footer></Footer> -->
   </div>
 </template>
 
@@ -44,6 +44,7 @@ export default class App extends Vue {
       htmlElement.setAttribute("theme", "light");
       this.darkMode = false;
     }
+    console.log(this.$route)
   }
 
   @Watch("darkMode")

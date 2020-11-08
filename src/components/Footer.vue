@@ -3,10 +3,10 @@
     <footer>
       <div class="social-butns">
         <a class="btn1 facebook" href="#"><i class="fa fa-facebook"></i></a
-        ><a class="btn1 twitter" href="#"><i class="fa fa-instagram"></i></a
+        ><a class="btn1 twitter" href="https://www.instagram.com/avihsprasad/" target="_blank"><i class="fa fa-instagram"></i></a
         ><a class="btn1 google" href="#"><i class="fa fa-google"></i></a
-        ><a class="btn1 dribbble" href="#"><i class="fa fa-github"></i></a
-        ><a class="btn1 skype" href="#"><i class="fa fa-linkedin"></i></a>
+        ><a class="btn1 dribbble" href="https://github.com/AvihsPrasad" target="_blank"><i class="fa fa-github"></i></a
+        ><a class="btn1 skype" href="https://www.linkedin.com/in/shiva-prasad-2738888a/" target="_blank"><i class="fa fa-linkedin"></i></a>
       </div>
     </footer>
   </div>

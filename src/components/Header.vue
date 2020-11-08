@@ -7,8 +7,10 @@
       </div>
       <div class="right-block">
         <ul>
-          <li><router-link to="/">About Me</router-link></li>
-          <li><router-link to="/resume">Resume</router-link></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/projects">Projects</router-link></li>
+          <li><router-link to="/testimonials">Testimonials</router-link></li>
+          <li><router-link to="/hobbies">Hobbies</router-link></li>
           <li><router-link to="/about">Contact</router-link></li>
           <li>
             <div class="toggleWrapper">

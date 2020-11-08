@@ -26,7 +26,7 @@
                 <div class="testimonial-author-info">
                   <h5 class="testimonial-author">{{ list.name }}</h5>
                   <p class="testimonial-firm">{{ list.designation }}</p>
-                  <div><a href="#">Read More...</a></div>
+                  <div><a href="/testimonials">Read More...</a></div>
                 </div>
                 <div class="testimonial-icon">
                   <i class="fa fa-quote-left"></i>
@@ -70,9 +70,6 @@ export default class Testmonial extends Vue {
   mounted() {
     this.TestimonialData = testimonial;
     console.log(testimonial);
-  }
-  getimg(data: any) {
-    return data;
   }
 }
 </script>

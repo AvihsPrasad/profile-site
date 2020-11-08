@@ -2,7 +2,7 @@
     --app-background-color: #FFFFFF;
     --dynamic-title-color: #000000;
     --dynamic-subtitle-color: #4a4a4a;
-    --letter-logo-bgcolor:  #54ca95;
+    --letter-logo-bgcolor:  #7066ff;
     --menu-hover-color: #333333;
     --photo-background-color: #fff;
     --photo-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
@@ -17,13 +17,18 @@
     --quotes-icon-color: #e5e5e5;
     --slider-dots-color: #54ca95;
     --slider-bgcolor: #d5d5d5;
+    --contactText: #b6abd6;
+    // --contentleftblock: #3e2093;
+    --contentleftblock: #7066ff;
+    --slidedblock: #ececec;
 }
 
 [theme="dark"] {
     --app-background-color: #222222;
     --dynamic-title-color: #FFFFFF;
     --dynamic-subtitle-color: cyan;
-    --letter-logo-bgcolor: #7066ff;
+    --letter-logo-bgcolor: #bf1515;
+    // --letter-logo-bgcolor: #7066ff;
     --menu-hover-color: #f5f5f5;
     --photo-background-color: #444;
     --photo-box-shadow: 0 0 25px 0 rgba(0,0,0,.8);
@@ -38,4 +43,7 @@
     --quotes-icon-color: #454545;
     --slider-dots-color: #007ced;
     --slider-bgcolor: aliceblue;
+    --contactText: #b6abd6;
+    --contentleftblock: #bf1515;
+    --slidedblock: #555555;
 }
