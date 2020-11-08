@@ -27,11 +27,11 @@ export const testimonial = [
           "Shiva is a passionate UI developer and had a great experience having him as part of my team. Ability to learn a new framework....",
       },
       {
-        name: "Anoop Vante",
-        designation: "Backend developer",
-        image: "anoop.jpg",
+        name: "Pankaj Tiwari",
+        designation: "SDE lll",
+        image: "pankaj.jpg",
         disp:
-          "Nam tempor commodo mi id sodales. Aenean sit amet nibh nec sapien consequat porta a sit amet diam.",
+          "Shiva is self motivated, dedicated and great to work with. He has in-depth knowledge of Software development life cycle. Along with excellent....",
       },
     ],
   },
@@ -43,14 +43,7 @@ export const testimonial = [
         image: "harsha.jpg",
         disp:
           "Shiva Prasad is the outstanding and creative person in his field. Shiva and I together share 4 years of same college. He has a immense knowledge....",
-      },
-      {
-        name: "Pankaj Tiwari",
-        designation: "SDE lll",
-        image: "pankaj.jpg",
-        disp:
-          "Shiva is self motivated, dedicated and great to work with. He has in-depth knowledge of Software development life cycle. Along with excellent....",
-      },
+      }
     ],
   },
 ];
