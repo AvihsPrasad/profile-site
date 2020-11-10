@@ -105,7 +105,7 @@ body {
 .site_main {
   display: grid;
   place-items: center;
-  height: calc(100vh - 136px);
+  height: calc(100vh - 95px);
   // border: 1px solid green;
   .profile_block {
     display: flex;
@@ -413,63 +413,10 @@ body {
   }
   .right_block{
     width: 65%;
-    padding: 20px 40px;
+    padding: 20px 150px;
     form{
       display: flex;
     }
   }
 }
 
-.testipage{
-  overflow-x: clip;
-  padding-top: 30px;
-  .main_block:last-child {
-    margin-bottom: 50px;
-  }
-  .main_block{
-    display: flex;
-    // padding: 40px 40px;
-    .box {
-      background-color: var(--slidedblock);
-      margin-top: 50px;
-      padding: 5% 20px 10px 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
-      
-      -webkit-transform: skewY(-5deg);
-      -moz-transform: skewY(-5deg);
-      -ms-transform: skewY(-5deg);
-      -o-transform: skewY(-5deg);
-      transform: skewY(-5deg);
-    }
-    
-    .box > .wrapper {
-      -webkit-transform: skewY(5deg);
-      -moz-transform: skewY(5deg);
-      -ms-transform: skewY(5deg);
-      -o-transform: skewY(5deg);
-      transform: skewY(5deg);
-      display: flex;
-      div{
-        width: 50%;
-        // border-bottom: 1px dashed var(--testimonial-block-text);
-      }
-    }
-    .left_block{
-      text-align: center;
-      // padding-bottom: 40px;
-      img {
-        width: 400px;
-        height: 400px;
-        border-radius: 100%;
-      }
-    }
-    .right_block{
-      // padding: 40px 0;
-      line-height: 30px;
-      word-spacing: 8px;
-      color: var(--testimonial-block-text);
-      p{
-        margin-bottom: 0;
-      }
-    }
-  }
-}

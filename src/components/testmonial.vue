@@ -1,5 +1,5 @@
 <template>
-  <div class="testimonial_page">
+  <div class="testimonial_page" data-aos="zoom-in" data-aos-delay="200">
     <div class="">
       <h2>Testimonials</h2>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">

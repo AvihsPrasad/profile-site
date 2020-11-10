@@ -5,12 +5,20 @@
         <div class=" col-xs-12 col-sm-12 ">
           <div class="row">
             <div class="col-sm-12 col-md-5 col-lg-5">
-              <div class="round_background">
+              <div
+                class="round_background"
+                data-aos="zoom-out-right"
+                data-aos-delay="200"
+              >
                 <div class="photo_bg"></div>
               </div>
             </div>
             <div class="col-sm-12 col-md-7 col-lg-7">
-              <div class="left_pad25">
+              <div
+                class="left_pad25"
+                data-aos="zoom-out-left"
+                data-aos-delay="500"
+              >
                 <div class="desg_text"><h4>FullStack Developer</h4></div>
                 <h1>Shiva Prasad</h1>
                 <p>
@@ -23,9 +31,15 @@
                   creation, front-end/back-end web, database/server management
                   and application Deployment.
                 </p>
-                <div class="site_buttons">
+                <div
+                  class="site_buttons"
+                  data-aos="zoom-in-right"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="100"
+                  data-aos-duration="2000"
+                >
                   <a href="#" class="btns btn-primary">Download CV</a>
-                  <a href="#" class="btns btn-secondary">Contact</a>
+                  <a href="/About" class="btns btn-secondary">Contact</a>
                 </div>
               </div>
             </div>

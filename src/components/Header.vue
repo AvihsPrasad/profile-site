@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <nav>
+    <nav data-aos="fade-down" data-aos-delay="100">
       <div class="left-block">
         <span class="letter">S</span>
         <span class="user_name"><b>Shiva </b>Prasad</span>

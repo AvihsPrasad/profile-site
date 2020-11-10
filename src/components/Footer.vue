@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer" data-aos="zoom-in" data-aos-delay="200">
     <footer>
       <div class="social-butns">
         <a class="btn1 facebook" href="#"><i class="fa fa-facebook"></i></a

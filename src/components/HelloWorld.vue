@@ -1,6 +1,7 @@
 <template>
   <div class="dasboard">
     <SiteMain></SiteMain>
+    <SkillsBlock></SkillsBlock>
     <Testmonial></Testmonial>
     <Footer></Footer>
   </div>
@@ -13,6 +14,7 @@ import Terminal from "../components/Terminal.vue";
 import Testmonial from "./testmonial.vue";
 import SiteMain from "./SiteMain.vue";
 import Footer from "./Footer.vue";
+import SkillsBlock from "./skillsBlock.vue"
 
 @Options({
   components: {
@@ -20,6 +22,7 @@ import Footer from "./Footer.vue";
     Terminal,
     Testmonial,
     SiteMain,
+    SkillsBlock,
     Footer,
   },
 })

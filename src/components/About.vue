@@ -1,72 +1,91 @@
 <template>
-  <div class="contact">
-    <div class="left_block">
-      <h2>Contact information</h2>
-      <p>Fill up the form and will get back to you on the Email.</p>
-      <div class="icon_details">
-        <ul>
-          <li>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <span>+91 9591499101</span>
-          </li>
-          <li>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <span>shivaprasad266@gmail.com</span>
-          </li>
-          <li>
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <span>India</span>
-          </li>
-        </ul>
-      </div>
-      <div class="bottom_icons">
-        <ul>
-          <li><a href="http://" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-          <li><a href="http://" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="http://" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href="http://" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="right_block">
-      <div class="form">
-        <div class="form-input">
-          <label>
-            <input required />
-            <span class="placeholder">First Name</span>
-          </label>
+  <div style="padding: 40px 50px 0px 50px;">
+    <div class="contact" data-aos="zoom-in"
+                  data-aos-easing="ease-in-back">
+      <div class="left_block">
+        <h2>Contact information</h2>
+        <p>Fill up the form and will get back to you on the Email.</p>
+        <div class="icon_details">
+          <ul>
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>+91 9591499101</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>shivaprasad266@gmail.com</span>
+            </li>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>India</span>
+            </li>
+          </ul>
         </div>
-        <div class="form-input">
-          <label>
-            <input required />
-            <span class="placeholder">Last Name</span>
-          </label>
-        </div>
-      </div>
-      <div class="form">
-        <div class="form-input">
-          <label>
-            <input required />
-            <span class="placeholder">Mail</span>
-          </label>
-        </div>
-        <div class="form-input">
-          <label>
-            <input required />
-            <span class="placeholder">Phone</span>
-          </label>
+        <div class="bottom_icons">
+          <ul>
+            <li>
+              <a href="http://" target="_blank"
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank"
+                ><i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
+      <div class="right_block">
+        <div class="form">
+          <div class="form-input">
+            <label>
+              <input required />
+              <span class="placeholder">First Name</span>
+            </label>
+          </div>
+          <div class="form-input">
+            <label>
+              <input required />
+              <span class="placeholder">Last Name</span>
+            </label>
+          </div>
+        </div>
+        <div class="form">
+          <div class="form-input">
+            <label>
+              <input required />
+              <span class="placeholder">Mail</span>
+            </label>
+          </div>
+          <div class="form-input">
+            <label>
+              <input required />
+              <span class="placeholder">Phone</span>
+            </label>
+          </div>
+        </div>
 
-      <div class="form-input">
-        <label>
-          <input required />
-          <span class="placeholder">Message</span>
-        </label>
+        <div class="form-input">
+          <label>
+            <input required />
+            <span class="placeholder">Message</span>
+          </label>
+        </div>
+        <button class="btn_round">
+          <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        </button>
       </div>
-      <button class="btn_round">
-        <i class="fa fa-paper-plane" aria-hidden="true"></i>
-      </button>
     </div>
   </div>
 </template>
@@ -156,7 +175,7 @@ export default class About extends Vue {}
 .form div:first-child {
   padding-right: 20px;
 }
-.btn_round{
+.btn_round {
   background: var(--contentleftblock);
   border-radius: 100%;
   font-size: 20px;
@@ -167,7 +186,7 @@ export default class About extends Vue {}
   color: #ffffff;
   float: right;
   box-shadow: var(--photo-box-shadow);
-  i{
+  i {
     position: relative;
     top: -5px;
     left: -2px;
