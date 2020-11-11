@@ -6,6 +6,8 @@ import About from "../components/About.vue";
 import TestimonialPage from "../components/TestimonialPage.vue";
 import Hobby from "../components/Hobby.vue";
 import AllSkils from "../components/AllSkill.vue";
+import PhotoGallery from "../components/PhotoGallery.vue";
+import Drawing from "../components/drawing.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -32,6 +34,16 @@ const routes: Array<RouteRecordRaw> = [
     path: "/skills",
     name: "AllSkils",
     component: AllSkils
+  },
+  {
+    path: "/gallery",
+    name: "PhotoGallery",
+    component: PhotoGallery
+  },
+  {
+    path: "/drawing",
+    name: "Drawing",
+    component: Drawing
   },
   {
     path: "/About",

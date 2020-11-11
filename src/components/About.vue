@@ -24,22 +24,22 @@
         <div class="bottom_icons">
           <ul>
             <li>
-              <a href="http://" target="_blank"
+              <a href="javascript:void(0)" target="_blank"
                 ><i class="fa fa-facebook-square" aria-hidden="true"></i
               ></a>
             </li>
             <li>
-              <a href="http://" target="_blank"
+              <a href="javascript:void(0)" target="_blank"
                 ><i class="fa fa-instagram" aria-hidden="true"></i
               ></a>
             </li>
             <li>
-              <a href="http://" target="_blank"
+              <a href="javascript:void(0)" target="_blank"
                 ><i class="fa fa-linkedin" aria-hidden="true"></i
               ></a>
             </li>
             <li>
-              <a href="http://" target="_blank"
+              <a href="javascript:void(0)" target="_blank"
                 ><i class="fa fa-github" aria-hidden="true"></i
               ></a>
             </li>

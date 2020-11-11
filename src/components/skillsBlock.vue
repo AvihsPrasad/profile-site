@@ -3,7 +3,12 @@
     <div class="">
       <h2>Skills</h2>
       <!-- <a class="redirect" href="/skills">Know more....</a> -->
-      <router-link to="/skills">Know more....</router-link>
+      <!-- <router-link to="/skills">Know more....</router-link> -->
+      <div class="git_redirection">
+            <div>
+              <router-link to="/skills">Know more....</router-link>
+            </div>
+          </div>
       <div class="cards-list">
         <div class="card 1">
           <div class="card_image">
@@ -126,6 +131,7 @@ export default class SkillsBlock extends Vue {
   border-radius: 40px;
   text-align: center;
   padding-top: 14px;
+  background: var(--photo-background-color);
 }
 
 .card .card_image img {
@@ -182,4 +188,22 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   transition: 0.4s;
 }
 */
+.git_redirection {
+          display: inline-block;
+          float: right;
+          div {
+            display: inline-block;
+            padding: 10px 15px;
+            color: #fff;
+            border-radius: 5px;
+            background: var(--contentleftblock);
+            a { 
+              text-decoration: none;
+            }
+            :hover{
+                color: #fff;
+                text-decoration: none;
+              }
+          }
+        }
 </style>

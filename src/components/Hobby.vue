@@ -19,7 +19,7 @@
             </p>
             <div class="date">6 Oct 2017</div>
             <div class="tags">
-              <div class="tag">View more</div>
+              <div class="tag"><router-link to="/gallery">View more</router-link></div>
             </div>
           </div>
         </a>
@@ -36,7 +36,7 @@
             <p>Portfolio, nature and bike related</p>
             <div class="date">9 Oct 2017</div>
             <div class="tags">
-              <div class="tag">View more</div>
+              <div class="tag"><router-link to="/drawing">View more</router-link></div>
             </div>
           </div>
         </a>
@@ -119,7 +119,7 @@ a {
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 10px solid var(--dynamic-title-color);
   text-decoration: none;
 }
 
@@ -184,7 +184,7 @@ a {
 }
 
 .carde:before {
-  background: #ddd;
+  background: transparent;
   width: 250%;
   height: 250%;
 }
@@ -193,9 +193,10 @@ a {
   background: white;
   width: 200%;
   height: 200%;
+  opacity: 0.6;
 }
 
-.card:hover {
+.carde:hover {
   color: var(--color);
 }
 

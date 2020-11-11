@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/aos": "^3.0.3",
     "aos": "^2.3.4",
+    "axios": "^0.21.0",
     "vue": "^3.0.0-rc.10",
     "vue-class-component": "^8.0.0-beta.1",
     "vue-property-decorator": "^9.0.0",

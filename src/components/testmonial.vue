@@ -55,13 +55,11 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Animation from "../components/Animation.vue";
 import Terminal from "../components/Terminal.vue";
 import { testimonial } from "../mock/testimonial";
 
 @Options({
   components: {
-    Animation,
     Terminal
   }
 })
