@@ -247,7 +247,7 @@ export default class Clock extends Vue {
 </script>
 
 <style lang="scss">
-.clock-Block { font-size:62.5%; margin:1em; background:#232425 }
+.clock-Block { font-size:62.5%; margin:1em;}
 .clock-Blockul { list-style:none; margin:0; padding:0 }
 #watch { font-size:1em; position:relative }
 #watch .frame-face {

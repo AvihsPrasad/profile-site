@@ -2,7 +2,8 @@
   <div class="testimonial_page" data-aos="zoom-in" data-aos-delay="200">
     <div class="">
       <h2>Skills</h2>
-      <a class="redirect" href="/skills">Know more....</a>
+      <!-- <a class="redirect" href="/skills">Know more....</a> -->
+      <router-link to="/skills">Know more....</router-link>
       <div class="cards-list">
         <div class="card 1">
           <div class="card_image">

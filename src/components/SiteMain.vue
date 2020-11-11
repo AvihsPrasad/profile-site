@@ -38,8 +38,18 @@
                   data-aos-delay="100"
                   data-aos-duration="2000"
                 >
-                  <a href="#" class="btns btn-primary">Download CV</a>
-                  <a href="/About" class="btns btn-secondary">Contact</a>
+                  <a
+                    href="javscript:void(0)"
+                    class="btns btn-primary"
+                    @click="download()"
+                    >Download CV</a
+                  >
+                  <a
+                    href="javscript:void(0)"
+                    class="btns btn-secondary"
+                    @click="navigate()"
+                    >Contact</a
+                  >
                 </div>
               </div>
             </div>
@@ -54,7 +64,9 @@
 import { Options, Vue } from "vue-class-component";
 import Animation from "../components/Animation.vue";
 import Terminal from "../components/Terminal.vue";
+// import router from "../router";
 import Testmonial from "./testmonial.vue";
+import axios from "axios";
 
 @Options({
   components: {
@@ -63,7 +75,40 @@ import Testmonial from "./testmonial.vue";
     Testmonial,
   },
 })
-export default class SiteMain extends Vue {}
+export default class SiteMain extends Vue {
+  mounted() {}
+
+  navigate() {
+    // alert('sasasa')
+    this.$router.push({ path: "about" });
+    // router.push('home');
+  }
+  download() {
+    alert("sasas");
+    axios.get("https://jsonplaceholder.typicode.com/users").then((resp) => {
+      console.log(resp.data);
+    });
+    // axios({
+    //   url: "https://jsonplaceholder.typicode.com/todos/1",
+
+    //   method: "GET",
+
+    //   responseType: "blob",
+    // }).then((response) => {
+    //   var fileURL = window.URL.createObjectURL(new Blob([response.data]));
+
+    //   var fileLink = document.createElement("a");
+
+    //   fileLink.href = fileURL;
+
+    //   fileLink.setAttribute("download", "file.pdf");
+
+    //   document.body.appendChild(fileLink);
+
+    //   fileLink.click();
+    // });
+  }
+}
 </script>
 
 <style lang="scss"></style>
