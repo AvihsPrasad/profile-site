@@ -20,7 +20,7 @@
                 data-aos-delay="500"
               >
                 <div class="desg_text"><h4>FullStack Developer</h4></div>
-                <h1>Shiva Prasad</h1>
+                <h1 @click="download()">Shiva Prasad</h1>
                 <p>
                   I am a seasoned software expert who has developed products for
                   enterprise clients such as Lumen Technologies(CenturyLink Pvt
@@ -85,9 +85,27 @@ export default class SiteMain extends Vue {
   }
   download() {
     alert("sasas");
-    axios.get("https://jsonplaceholder.typicode.com/users").then((resp) => {
-      console.log(resp.data);
-    });
+    axios
+      .get("http://127.0.0.1:9000/Shiva_PO.pdf", {
+        headers: {
+          "Access-Control-Allow-Origin": "*"
+        },
+        responseType: "blob",
+      })
+      .then((resp) => {
+        console.log(resp.data);
+        var fileURL = window.URL.createObjectURL(new Blob([resp.data]));
+
+        var fileLink = document.createElement("a");
+
+        fileLink.href = fileURL;
+
+        fileLink.setAttribute("download", "file.pdf");
+
+        document.body.appendChild(fileLink);
+
+        fileLink.click();
+      });
     // axios({
     //   url: "https://jsonplaceholder.typicode.com/todos/1",
 
