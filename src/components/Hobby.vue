@@ -1,6 +1,6 @@
 <template>
   <div
-    style="padding: 40px 50px 0px 50px;"
+    class="hobby_page"
     data-aos="zoom-in"
     data-aos-delay="200"
   >
@@ -19,7 +19,7 @@
             </p>
             <div class="date">6 Oct 2017</div>
             <div class="tags">
-              <div class="tag"><router-link to="/gallery">View more</router-link></div>
+              <div class="tag"><router-link to="/drawing">View more</router-link></div>
             </div>
           </div>
         </a>
@@ -36,7 +36,7 @@
             <p>Portfolio, nature and bike related</p>
             <div class="date">9 Oct 2017</div>
             <div class="tags">
-              <div class="tag"><router-link to="/drawing">View more</router-link></div>
+              <div class="tag"><router-link to="/gallery">View more</router-link></div>
             </div>
           </div>
         </a>
@@ -84,6 +84,7 @@ export default class Hobby extends Vue {}
 a {
   color: inherit;
 }
+.hobby_page{padding: 40px 50px 0px 50px;}
 
 .cards-wrapper {
   display: grid;

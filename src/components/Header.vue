@@ -2,8 +2,10 @@
   <header class="header">
     <nav data-aos="fade-down" data-aos-delay="100">
       <div class="left-block">
-        <span class="letter">S</span>
-        <span class="user_name"><b>Shiva </b>Prasad</span>
+        <router-link to="/">
+          <span class="letter">S</span>
+          <span class="user_name"><b>Shiva </b>Prasad</span>
+        </router-link>
       </div>
       <div class="right-block">
         <ul>

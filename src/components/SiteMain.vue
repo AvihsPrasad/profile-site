@@ -13,7 +13,7 @@
                 <div class="photo_bg"></div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-7 col-lg-7">
+            <div class="mob-view-pad col-sm-12 col-md-7 col-lg-7">
               <div
                 class="left_pad25"
                 data-aos="zoom-out-left"

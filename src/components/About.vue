@@ -1,5 +1,5 @@
 <template>
-  <div style="padding: 40px 50px 0px 50px;">
+  <div class="about">
     <div class="contact" data-aos="zoom-in"
                   data-aos-easing="ease-in-back">
       <div class="left_block">
@@ -104,6 +104,9 @@ export default class About extends Vue {}
 </script>
 
 <style lang="scss">
+.about{
+  padding: 40px 50px 0px 50px;
+}
 .form {
   display: flex;
 }
